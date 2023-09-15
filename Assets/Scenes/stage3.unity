@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &2051789186
+--- !u!1 &87764596
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,8 +131,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2051789187}
-  - component: {fileID: 2051789188}
+  - component: {fileID: 87764598}
+  - component: {fileID: 87764597}
   m_Layer: 0
   m_Name: MasterTracker
   m_TagString: Untagged
@@ -140,28 +140,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2051789187
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051789186}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2051789188
+--- !u!114 &87764597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051789186}
+  m_GameObject: {fileID: 87764596}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45993a90afd1076449916a615fbc250e, type: 3}
@@ -171,116 +156,91 @@ MonoBehaviour:
   fastTankPoints: 200
   bigTankPoints: 300
   armoredTankPoints: 400
---- !u!1001 &128587245117629559
+--- !u!4 &87764598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87764596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1214952286
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 128587245752419618, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: stageNumber
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 128587245752419618, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: bigTanksInThisLevel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 128587245752419618, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: fastTanksInThisLevel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 128587245752419618, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: smallTanksInThisLevel
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 128587245752419618, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: armoredTanksInThisLevel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855204, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_Name
-      value: Stage Essential(stage2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.6342716
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.493865
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.07565559
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473756855205, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+    - target: {fileID: 1386080280136584642, guid: 440efede01ed9994a83929c0926dffff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473938366533, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: smallTank
-      value: 
-      objectReference: {fileID: 4274433765744077381, guid: 6956826c6fe56434da02bdf76b0955c0, type: 3}
-    - target: {fileID: 809155473938366535, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.62
+    - target: {fileID: 1386080280136584643, guid: 440efede01ed9994a83929c0926dffff, type: 3}
+      propertyPath: m_Name
+      value: Stage Essential(stage3)
       objectReference: {fileID: 0}
-    - target: {fileID: 809155473938366535, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.86
+    - target: {fileID: 1859493365676512069, guid: 440efede01ed9994a83929c0926dffff, type: 3}
+      propertyPath: stageNumber
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2957265234911310861, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: smallTank
-      value: 
-      objectReference: {fileID: 4274433765744077381, guid: 6956826c6fe56434da02bdf76b0955c0, type: 3}
-    - target: {fileID: 2957265234911310863, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.49
+    - target: {fileID: 1859493365676512069, guid: 440efede01ed9994a83929c0926dffff, type: 3}
+      propertyPath: fastTanksInThisLevel
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2957265234911310863, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.82
+    - target: {fileID: 1859493365676512069, guid: 440efede01ed9994a83929c0926dffff, type: 3}
+      propertyPath: smallTanksInThisLevel
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2957265235599959313, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.61
+    - target: {fileID: 1859493365676512069, guid: 440efede01ed9994a83929c0926dffff, type: 3}
+      propertyPath: armoredTanksInThisLevel
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2957265235599959313, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2957265235599959315, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
-      propertyPath: smallTank
-      value: 
-      objectReference: {fileID: 4274433765744077381, guid: 6956826c6fe56434da02bdf76b0955c0, type: 3}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c110a2e0f7e77f243894ade28eae61f3, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 440efede01ed9994a83929c0926dffff, type: 3}

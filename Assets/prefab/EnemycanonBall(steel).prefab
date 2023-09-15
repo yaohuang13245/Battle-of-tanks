@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6040192769352641437}
   - component: {fileID: 6040192769352641436}
   m_Layer: 12
-  m_Name: EnemycanonBall
+  m_Name: EnemycanonBall(steel)
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,5 +146,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adf901397e695af43ae4d7e92028168b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroySteel: 0
+  destroySteel: 1
   speed: 3

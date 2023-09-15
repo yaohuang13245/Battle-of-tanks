@@ -12,6 +12,22 @@ public class TallyScore : MonoBehaviour
     MasterTracker masterTracker;
     int smallTankPointsWorth, fastTankPointsWorth, bigTankPointsWorth, armoredTankPointsWorth;
     // Use this for initialization
+
+    void UpdateHighScore()
+    {
+        int currentScore = MasterTracker.playerScore;
+        int savedHighScore = PlayerPrefs.GetInt("HighScore", 0); // Get the saved high score (default is 0)
+
+        if (currentScore > savedHighScore)
+        {
+            // If the current score is higher than the saved high score, update it
+            PlayerPrefs.SetInt("HighScore", currentScore);
+            savedHighScore = currentScore; // Update the saved high score
+        }
+
+        hiScoreText.text = savedHighScore.ToString(); // Update the hiScoreText UI element with the high score
+    }
+
     void Start()
     {
         masterTracker = GameObject.Find("MasterTracker").GetComponent<MasterTracker>();
@@ -21,6 +37,8 @@ public class TallyScore : MonoBehaviour
         armoredTankPointsWorth = masterTracker.armoredTankPointsWorth;
         stageText.text = "STAGE " + MasterTracker.stageNumber;
         playerScoreText.text = MasterTracker.playerScore.ToString();
+        hiScoreText.text = playerScoreText.text;
+        UpdateHighScore();
         StartCoroutine(UpdateTankPoints());
     }
     IEnumerator UpdateTankPoints()

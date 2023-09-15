@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 728004d19e39fdf4db39a11d1c0d0a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 6040192769352641439, guid: 79e70ffd27bc6a34c8e9d4081558fb32, type: 3}
+  projectile: {fileID: 6040192769352641439, guid: 82fd0a373a8bdfa418f38e07b3b6af0f, type: 3}
   speed: 10
 --- !u!1 &1244300303717148663
 GameObject:

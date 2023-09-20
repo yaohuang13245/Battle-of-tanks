@@ -22,7 +22,29 @@ public class GamePlayManager : MonoBehaviour
         stageNumberText.text = "STAGE " + MasterTracker.stageNumber.ToString();
         stageStart = true;
         StartCoroutine(StartStage());
-        
+        // Find the GameObject with the AudioSource component
+        GameObject backgroundMusicObject = GameObject.Find("BackgroundMusic");
+
+        // Check if the object exists and has an AudioSource component
+        if (backgroundMusicObject != null)
+        {
+            // Get the AudioSource component
+            AudioSource backgroundMusic = backgroundMusicObject.GetComponent<AudioSource>();
+
+            // Start playing the background music
+            if (backgroundMusic != null)
+            {
+                backgroundMusic.Play();
+            }
+            else
+            {
+                Debug.LogWarning("BackgroundMusic GameObject does not have an AudioSource component.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("BackgroundMusic GameObject not found in the scene.");
+        }
     }
     IEnumerator StartStage()
     {

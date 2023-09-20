@@ -62,6 +62,12 @@ public class EnemyAI : Movement
     }
     void FireWhenWanted()
     {
+        // Play the shooting sound effect
+        if (GetComponent<AudioSource>() != null)
+        {
+            GetComponent<AudioSource>().Play();
+        }
+
         print("FireWhenWanted");
         wc.Fire();
         Invoke("FireWhenWanted", Random.Range(1f, 5f));

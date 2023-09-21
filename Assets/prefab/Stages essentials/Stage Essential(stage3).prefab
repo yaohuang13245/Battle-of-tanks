@@ -60,7 +60,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 12.381227
+  orthographic size: 16.43077
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -12403,10 +12403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a685604c2a9b4e93f568604b62dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallTanksInThisLevel: 0
+  smallTanksInThisLevel: 2
   fastTanksInThisLevel: 3
-  bigTanksInThisLevel: 3
-  armoredTanksInThisLevel: 3
+  bigTanksInThisLevel: 4
+  armoredTanksInThisLevel: 4
   stageNumber: 3
   spawnRateInThisLevel: 3
 --- !u!1 &1859493366454954349
@@ -12788,11 +12788,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2463719193112017193, guid: 2ff9e63da2db74840a886f039dfd2772, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.24
+      value: 10.53
       objectReference: {fileID: 0}
     - target: {fileID: 2463719193112017193, guid: 2ff9e63da2db74840a886f039dfd2772, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.29
+      value: -10.08
       objectReference: {fileID: 0}
     - target: {fileID: 2463719193112017193, guid: 2ff9e63da2db74840a886f039dfd2772, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12928,11 +12928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3272575236530240563, guid: 6c1d99eb63075ea40b2e27fd117ae485, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.05
+      value: -2.42
       objectReference: {fileID: 0}
     - target: {fileID: 3272575236530240563, guid: 6c1d99eb63075ea40b2e27fd117ae485, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.39
+      value: -9.67
       objectReference: {fileID: 0}
     - target: {fileID: 3272575236530240563, guid: 6c1d99eb63075ea40b2e27fd117ae485, type: 3}
       propertyPath: m_LocalPosition.z

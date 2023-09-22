@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroySteel: 0
   speed: 3
+  isPlayerProjectile: 1

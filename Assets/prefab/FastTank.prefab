@@ -502,9 +502,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actualHealth: 0
-  explosionPrefab: {fileID: 708970565015777803, guid: f10a5f4db3aad495ba9bd80ac2c17d12, type: 3}
   powerUpPrefab: {fileID: 9210856731356674724, guid: e5669b6e6cacf5c49a373a39255ad265, type: 3}
-  powerUpDropChance: 0.4
+  projectileSpeedUpPrefab: {fileID: 5357293225096376324, guid: ab1fc3b6e3546574fa1a4bd6071ef5d4, type: 3}
+  explosionPrefab: {fileID: 708970565015777803, guid: f10a5f4db3aad495ba9bd80ac2c17d12, type: 3}
 --- !u!82 &3289535650682819086
 AudioSource:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Movement : MonoBehaviour
 {
-    public int speed = 5;
+    public float speed = 5.0f;
     protected bool isMoving = false;
 
     protected IEnumerator MoveHorizontal(float movementHorizontal, Rigidbody2D rb2d)
@@ -73,5 +73,10 @@ public abstract class Movement : MonoBehaviour
 
         isMoving = false;
 
+    }
+    // Method to increase the player's speed
+    public void IncreaseSpeed(float amount)
+    {
+        speed += amount;
     }
 }
